@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class um {
 
 public static void main(String[] args) throws Exception {
+
+    //Programa que lê e calcula a média de 5 notas de um aluno
        
         double[] nota = new double[5];
         double soma = 0.0, media;
@@ -20,6 +22,5 @@ public static void main(String[] args) throws Exception {
                     System.out.println("Média das notas: " + media ) ;
            
             }
-
 
 }
